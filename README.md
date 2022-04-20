@@ -20,7 +20,8 @@ struct ContentView: View {
             )
             .aspectRatio(414/283, contentMode: .fit)
             Spacer()
-       }.background(Color.gray)
+       }
+       .background(Color.gray)
        .ignoresSafeArea(.container, edges: .top)
     }
 }
