@@ -11,6 +11,10 @@ public struct ImageSlider: View {
     let images:[String]
         
 
+    public init(_ images:[String]){
+        
+        self.images = images
+    }
     
     public var body: some View {
         
