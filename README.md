@@ -6,6 +6,9 @@ Simple Image Slider for SwiftUI. It takes URLs as input and displays them as sli
 
 Sample Usage 
 
+```swift
+
+
 struct ContentView: View {
     
    var body: some View {
@@ -19,3 +22,5 @@ struct ContentView: View {
 
     }
 }
+
+```
