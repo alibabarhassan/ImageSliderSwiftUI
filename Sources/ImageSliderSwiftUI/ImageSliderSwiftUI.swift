@@ -2,8 +2,7 @@ import SwiftUI
 import SDWebImageSwiftUI
 
 
-@available(iOS 13.0, *)
-struct ImageSlider: View {
+public struct ImageSlider: View {
     
     public let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
         @State private var selection = 0
@@ -13,7 +12,7 @@ struct ImageSlider: View {
         
 
     
-    var body: some View {
+    public var body: some View {
         
         VStack{
             
