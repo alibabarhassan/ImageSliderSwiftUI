@@ -18,11 +18,7 @@ struct ContentView: View {
                     "https://picsum.photos/id/502/200/283"
                 ]
             )
-            .aspectRatio(414/283, contentMode: .fit)
-            Spacer()
        }
-       .background(Color.gray)
-       .ignoresSafeArea(.container, edges: .top)
     }
 }
 
