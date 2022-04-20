@@ -11,7 +11,7 @@ Sample Usage
 struct ContentView: View {
    var body: some View {
        VStack{
-           ImageSliderSwiftUI(
+           ImageSlider(
                 [   
                     "https://picsum.photos/id/500/414/283",
                     "https://picsum.photos/id/501/200/100",
