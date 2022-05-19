@@ -28,6 +28,7 @@ public struct ImageSlider: View {
                     
                     WebImage(url: URL(string : images[i]))
                         .resizable()
+                        .placeholder(Image("100-64").resizable())
                         .ignoresSafeArea(.container, edges: .top)
 
                 }
