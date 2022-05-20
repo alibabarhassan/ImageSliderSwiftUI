@@ -39,7 +39,6 @@ public struct ImageSlider: View {
                 .onReceive(timer, perform: { _ in
                     
                     withAnimation{
-                        print("selection is",selection)
                         selection = selection < images.count ? selection + 1 : 0
                     }
                 })
