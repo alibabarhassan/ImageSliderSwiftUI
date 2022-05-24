@@ -30,6 +30,9 @@ public struct ImageSlider: View {
                         .resizable()
                         .placeholder(Image("100-64").resizable())
                         .ignoresSafeArea(.container, edges: .top)
+                        .background(
+                            LinearGradient(gradient: Gradient(colors: [.black, .white]), startPoint: .top, endPoint: .bottom)
+                        )
 
                 }
                 
